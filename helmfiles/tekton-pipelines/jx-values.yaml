@@ -34,6 +34,8 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
+    customHosts:
+      hook: "fe7b043a09ba.ngrok.io"
     domain: ""
     externalDNS: false
     kind: ingress
