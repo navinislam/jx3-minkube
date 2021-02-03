@@ -21,6 +21,13 @@ spec:
     repository: jx3-minkube
   - key: staging
   - key: production
+  - gitKind: github
+    gitServer: https://github.com
+    key: navin-jx
+    owner: navinislam
+    promotionStrategy: Auto
+    remoteCluster: true
+    repository: navin-jx
   ingress:
     domain: 192.168.64.10.nip.io
     externalDNS: false
