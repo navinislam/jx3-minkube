@@ -31,10 +31,12 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: navinislam
+    repository: jx3-minkube
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.64.10.nip.io
     externalDNS: false
     kind: ingress
     namespaceSubDomain: -jx.
@@ -42,6 +44,8 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: navinislam
   repository: bucketrepo
   secretStorage: vault
   vault: {}

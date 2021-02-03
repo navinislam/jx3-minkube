@@ -14,8 +14,11 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.99.235.143
   environments:
   - key: dev
+    owner: navinislam
+    repository: jx3-minkube
   - key: staging
   - key: production
   ingress:
@@ -27,6 +30,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: navinislam
   repository: bucketrepo
   secretStorage: vault
   vault: {}
