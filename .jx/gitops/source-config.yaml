@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: jenkinsx-trial
+    - name: navin-jx
     scheduler: in-repo
